@@ -1,11 +1,10 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
-import Image from 'react-bootstrap/Image'
-import { FaEye, FaRegBookmark, FaShareAlt, FaStar } from 'react-icons/fa';
+
 
 const NewsSummaryCard = ({ news }) => {
-    const { _id, title, author, details, image_url, rating, total_view } = news;
+    const { _id, title,  details, image_url } = news;
     console.log(news);
     return (
         <Card className="mb-5">

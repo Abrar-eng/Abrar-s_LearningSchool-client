@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import { FaGoogle, FaGithub, FaFacebook, FaTwitter, FaWhatsapp, FaTwitch } from "react-icons/fa";
 import ListGroup from 'react-bootstrap/ListGroup';
-import BrandCarousel from '../BrandCarousel/BrandCarousel';
+
 import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
 import { GoogleAuthProvider } from 'firebase/auth';
 
@@ -38,9 +38,7 @@ const RightSideNav = () => {
                     <ListGroup.Item className='mb-2'>Vestibulum at eros</ListGroup.Item>
                 </ListGroup>
             </div>
-            <div>
-                <BrandCarousel></BrandCarousel>
-            </div>
+            
         </div>
     );
 };
