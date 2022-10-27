@@ -4,7 +4,7 @@ import News from '../../News/News/News';
 
 const LeftSideNav = () => {
     const [categories, setCategories] = useState([]);
-    const { _id,  } = News;
+    const { category_id, details  } = News;
     useEffect( () =>{
         fetch('http://localhost:5000/news-categories')
         .then( res => res.json())
@@ -15,10 +15,11 @@ const LeftSideNav = () => {
         <div className='bg-info text-center'>
             <h4>All Courses: {categories.length}</h4>
             <div >
-                {
-                    categories.map(category => <p className='bg-secondary' >
-                        <Link  to={`/news/${_id}`} style={{ color: '#FFF' }}>{category.name}</Link>
+                { 
+                    categories.map(category => <p className='bg-secondary' >{details}
+                        <Link  to={`/news/${category_id}`} style={{ color: '#FFF' }}>{category.name}</Link>
                     </p>)
+                    
                 }
             </div>
         </div>
