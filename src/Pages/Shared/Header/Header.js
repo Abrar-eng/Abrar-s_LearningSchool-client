@@ -41,8 +41,8 @@ const Header = () => {
                                     </>
                                     :
                                     <>
-                                        <Link to='/login' style={{ color: '#FFF', backgroundColor: "#5C985C",}}>| Login |</Link><br />
-                                        <Link to='/register' style={{ color: '#FFF', backgroundColor: "#FF0000" }}>| Register |</Link>
+                                        <Link to='/login' style={{ color: '#FFF', backgroundColor: "#5C985C",}}>|Login| </Link>
+                                        <Link to='/register' style={{ color: '#FFF', backgroundColor: "#FF0000" }}> |Register|</Link>
                                     </>
                             }
 
