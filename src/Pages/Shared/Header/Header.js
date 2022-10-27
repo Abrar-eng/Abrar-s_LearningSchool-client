@@ -24,11 +24,11 @@ const Header = () => {
             <Nav className="me-auto text-light">
                         <Nav.Link> <img height={'30px'} width='60px' src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="" srcset="" /> </Nav.Link>
                         <Nav.Link style={{ color: '#FFF', backgroundColor: "#5C985C", fontWeight: 'bold' }}>Abrar Learning School</Nav.Link>
-                        <Nav.Link><Link to='/NavHome' style={{ color: '#FFF', backgroundColor: "#5C985C" }}>Home</Link></Nav.Link>
-                        <Nav.Link><Link style={{ color: '#FFF', backgroundColor: "#5C985C" }}>FAQ</Link></Nav.Link>
-                        <Nav.Link><Link to='/Blog' style={{ color: '#FFF', backgroundColor: "#5C985C" }}>Blog</Link></Nav.Link>
+                        <Nav.Link><Link to='/NavHome' style={{ color: '#FFF'}}>Home</Link></Nav.Link>
+                        <Nav.Link><Link style={{ color: '#FFF' }}>FAQ</Link></Nav.Link>
+                        <Nav.Link><Link to='/Blog' style={{ color: '#FFF'}}>Blog</Link></Nav.Link>
                     </Nav>
-                <Navbar.Brand><Link to='/' style={{ color: '#FFF', backgroundColor: "#5C985C" }}>Courses</Link></Navbar.Brand>
+                <Navbar.Brand><Link to='/' style={{ color: '#FFF', }}>Courses</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav>
@@ -41,8 +41,8 @@ const Header = () => {
                                     </>
                                     :
                                     <>
-                                        <Link to='/login' style={{ color: '#FFF', backgroundColor: "#5C985C", paddingRight: '10px' }}>| Login |</Link><br />
-                                        <Link to='/register' style={{ color: '#FFF', backgroundColor: "#5C985C" }}>| Register |</Link>
+                                        <Link to='/login' style={{ color: '#FFF', backgroundColor: "#5C985C",}}>| Login |</Link><br />
+                                        <Link to='/register' style={{ color: '#FFF', backgroundColor: "#FF0000" }}>| Register |</Link>
                                     </>
                             }
 
