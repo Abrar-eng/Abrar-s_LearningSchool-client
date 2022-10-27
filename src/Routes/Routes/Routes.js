@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import Blog from "../../Blog/Blog";
 import Main from "../../layout/Main";
 import NavHome from "../../NavHome/NavHome";
 import Category from "../../Pages/Category/Category/Category";
@@ -38,6 +39,10 @@ export const routes = createBrowserRouter([
             {
                 path: '/NavHome',
                 element: <NavHome></NavHome>
+            },
+            {
+                path: '/Blog',
+                element: <Blog></Blog>
             }
         ]
     }

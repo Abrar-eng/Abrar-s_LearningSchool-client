@@ -26,7 +26,7 @@ const RightSideNav = () => {
         <div>
             <ButtonGroup vertical>
                 <Button onClick={handleGoogleSignIn} className='mb-2' variant="outline-primary"> <FaGoogle></FaGoogle> Login with Google</Button>
-                <Button variant="outline-dark"> <FaGithub></FaGithub> Login with Github</Button>
+                <Button variant="outline-dark"> <FaGithub></FaGithub>Login with Github</Button>
             </ButtonGroup>
             <div className='mt-4'>
                 <h5>Find us on</h5>

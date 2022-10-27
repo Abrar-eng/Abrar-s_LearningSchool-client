@@ -2,9 +2,10 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            <p><small>Copyright coming soon</small></p>
+        <div className='text-center'>
+            <p><small>@Copyright by Abrarul Hasan 2022</small></p>
         </div>
+        
     );
 };
 

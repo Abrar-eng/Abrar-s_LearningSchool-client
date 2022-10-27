@@ -22,10 +22,11 @@ const Header = () => {
         <Navbar collapseOnSelect className='mb-4 bg-info' expand="lg" variant="light">
             <Container>
             <Nav className="me-auto text-light">
+                        <Nav.Link> <img height={'30px'} width='60px' src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="" srcset="" /> </Nav.Link>
                         <Nav.Link><Link to='/NavHome' style={{ color: '#FFF' }}>Abrar Learning School</Link></Nav.Link>
                         <Nav.Link><Link to='/NavHome' style={{ color: '#FFF' }}>Home</Link></Nav.Link>
                         <Nav.Link><Link style={{ color: '#FFF' }}>FAQ</Link></Nav.Link>
-                        <Nav.Link><Link style={{ color: '#FFF' }}>Blog</Link></Nav.Link>
+                        <Nav.Link><Link to='/Blog' style={{ color: '#FFF' }}>Blog</Link></Nav.Link>
                     </Nav>
                 <Navbar.Brand><Link to='/' style={{ color: '#FFF' }}>Courses</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
