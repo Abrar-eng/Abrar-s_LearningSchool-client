@@ -34,8 +34,6 @@ const RightSideNav = () => {
                     <ListGroup.Item className='mb-2'><FaFacebook /> Facebook</ListGroup.Item>
                     <ListGroup.Item className='mb-2'><FaWhatsapp /> WhatsApp</ListGroup.Item>
                     <ListGroup.Item className='mb-2'><FaTwitter /> Twitter</ListGroup.Item>
-                    <ListGroup.Item className='mb-2'><FaTwitch /> Twitch</ListGroup.Item>
-                    <ListGroup.Item className='mb-2'>Vestibulum at eros</ListGroup.Item>
                 </ListGroup>
             </div>
             
