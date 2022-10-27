@@ -19,15 +19,15 @@ const Header = () => {
     }
 
     return (
-        <Navbar collapseOnSelect className='mb-4' expand="lg" bg="light" variant="light">
+        <Navbar collapseOnSelect className='mb-4 bg-info' expand="lg" variant="light">
             <Container>
-            <Nav className="me-auto">
-                        <Nav.Link><Link>Abrar Learning School</Link></Nav.Link>
-                        <Nav.Link><Link>Home</Link></Nav.Link>
-                        <Nav.Link><Link>FAQ</Link></Nav.Link>
-                        <Nav.Link><Link>Blog</Link></Nav.Link>
+            <Nav className="me-auto text-light">
+                        <Nav.Link><Link to='/NavHome' style={{ color: '#FFF' }}>Abrar Learning School</Link></Nav.Link>
+                        <Nav.Link><Link to='/NavHome' style={{ color: '#FFF' }}>Home</Link></Nav.Link>
+                        <Nav.Link><Link style={{ color: '#FFF' }}>FAQ</Link></Nav.Link>
+                        <Nav.Link><Link style={{ color: '#FFF' }}>Blog</Link></Nav.Link>
                     </Nav>
-                <Navbar.Brand><Link to='/'>Courses</Link></Navbar.Brand>
+                <Navbar.Brand><Link to='/' style={{ color: '#FFF' }}>Courses</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav>
@@ -40,8 +40,8 @@ const Header = () => {
                                     </>
                                     :
                                     <>
-                                        <Link to='/login'>Login</Link>
-                                        <Link to='/register'>Register</Link>
+                                        <Link to='/login' style={{ color: '#FFF' }}>Login</Link>
+                                        <Link to='/register' style={{ color: '#FFF' }}>Register</Link>
                                     </>
                             }
 
